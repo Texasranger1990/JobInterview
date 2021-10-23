@@ -1,0 +1,34 @@
+[
+  {
+    "id": 3,
+    "forename": "Manly",
+    "lastName": "Man",
+    "dateOfBirth": "01.01.1973",
+    "gender": "MALE"
+  },
+
+  {
+    "id": 0,
+    "forename": "Max",
+    "lastName": "Mustermann",
+    "dateOfBirth": "01.01.1980",
+    "gender": "male"
+  },
+
+  {
+    "id": 1,
+    "forename": "Maria",
+    "lastName": "Musterfrau",
+    "dateOfBirth": "02.02.1992",
+    "gender": "female"
+  },
+
+  {
+    "id": -1,
+    "forename": "Buggy",
+    "lastName": "McGlitch",
+    "dateOfBirth": "30.02.1621",
+    "gender": "unknown"
+  }
+
+]
