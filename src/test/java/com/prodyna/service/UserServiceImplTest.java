@@ -16,8 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -45,7 +44,8 @@ public class UserServiceImplTest {
         List<UserDTO> users = userService.getUsers();
 
         assertNotNull(users);
-        assertEquals(UserServiceImplTestHelper.getAllUsers(), users);
+        for(UserDTO user : users)
+            assertTrue(UserServiceImplTestHelper.getAllUsers().contains(user));
     }
 
     @Test
