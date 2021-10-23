@@ -29,6 +29,13 @@
     "lastName": "McGlitch",
     "dateOfBirth": "30.02.1621",
     "gender": "unknown"
-  }
+  },
 
+  {
+    "id": 4,
+    "forename": "",
+    "lastName": "Madonna",
+    "dateOfBirth": "16.08.1958",
+    "gender": "female"
+  }
 ]

@@ -11,7 +11,8 @@ public class UserServiceImplTestHelper {
             new UserDTO(3, "Manly Man", Gender.MALE, 48),
             new UserDTO(0, "Max Mustermann", Gender.MALE, 41),
             new UserDTO(1, "Maria Musterfrau", Gender.FEMALE, 29),
-            new UserDTO(-1, "Buggy McGlitch", Gender.OTHER, 400)
+            new UserDTO(-1, "Buggy McGlitch", Gender.OTHER, 400),
+            new UserDTO(4, "Madonna", Gender.FEMALE, 63)
         );
     }
 
@@ -20,6 +21,7 @@ public class UserServiceImplTestHelper {
             new UserDTO(-1, "Buggy McGlitch", Gender.OTHER, 400),
             new UserDTO(1, "Maria Musterfrau", Gender.FEMALE, 29),
             new UserDTO(3, "Manly Man", Gender.MALE, 48),
+            new UserDTO(4, "Madonna", Gender.FEMALE, 63),
             new UserDTO(0, "Max Mustermann", Gender.MALE, 41)
         );
     }
