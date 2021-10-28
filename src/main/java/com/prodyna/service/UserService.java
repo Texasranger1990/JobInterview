@@ -8,5 +8,5 @@ import java.util.List;
 public interface UserService {
     List<UserDTO> getUsers() throws IOException;
 
-    List<UserDTO> getUsersSorted();
+    List<UserDTO> getUsersSorted() throws IOException;
 }
